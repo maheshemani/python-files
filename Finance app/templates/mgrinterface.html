@@ -1,0 +1,46 @@
+
+<html>
+<form action="/mgrui2" method="post" enctype="multipart/form-data">
+  <head>
+    <title>Employee Dashboard</title>
+  </head>
+
+   <body>
+      <table border = 1>
+	     <thead>
+    <tr>
+      <th>Email Id</th>
+      <th>Username</th>
+      <th>Emp Id</th>
+      <th>Bill type</th>
+	  <th>Amount (Rupees)</th>
+	  <th>Bill Receipt</th>
+	  <th>Status</th>
+   </tr>
+  </thead>
+<tbody>
+
+    <tr> 
+      <td> {{info[0]}} </td>
+      <td> {{info[1]}} </td>
+      <td> {{info[2]}} </td>
+      <td> {{info[3]}} </td>
+      <td> {{info[4]}} </td>
+      <td> <iframe src="C:\One-Drive\OneDrive - Tredence\Mahesh Emani\misc\receipt.pdf"> </td>
+      <td> <input type="submit" value="Upload"> </td> 
+    </tr>
+ 
+
+<div>
+
+
+
+</tbody>
+
+      </table>
+   </body>
+</form>
+</html>
+
+
+
