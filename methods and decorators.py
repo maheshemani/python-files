@@ -79,17 +79,21 @@ croc.rept_details()
 croc.snake.legs
 croc.snake.snek_warning()
 croc.snake.legdetails()
+
+reptile.snake.legdetails()
+
 """the below line throws an error.Why?
     snek_detail() is an instance method and 'snek' is the actual instance not 'snake' """
+
 croc.snake.snek_detail()
 
-reptile.snake.snek_detail(croc)
 
 # accessing subclass variables using subclass instance 'snek' directly
 croc.snek.legs
 croc.snek.snek_warning()
 croc.snek.legdetails()
 croc.snek.snek_detail()
+
 
 
 
